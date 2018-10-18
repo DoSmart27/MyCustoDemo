@@ -3,4 +3,17 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+
+    <color name="grey">#dfe3e5</color>
+    <color name="darkgrey">#cdcdcd</color>
+
+    <color name="border_color">#E0E0E0</color>
+
+    <color name="colorBackgroundtoolbar">#1A237E</color>
+
+
+    <color name="home_screen_buttons_text_color">#c7c7c7</color>
+    <color name="home_screen_background">#ffffff</color>
+
 </resources>
