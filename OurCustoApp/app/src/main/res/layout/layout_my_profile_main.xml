@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/style_card_view"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    app:cardCornerRadius="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="2">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/image_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="3dp"
+            app:srcCompat="@drawable/ic_baseline_account_box_24px" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/tv_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/title_my_details"
+            android:textSize="@dimen/standard_text_size"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/iv_arrow_expand"
+            style="@style/style_image_right_arrow"
+            android:layout_weight="1"
+            android:src="@drawable/selector_arrow_down" />
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

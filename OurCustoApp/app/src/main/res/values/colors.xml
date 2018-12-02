@@ -4,16 +4,42 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
 
-
+    <color name="shimmer_color">#a2878787</color>
     <color name="grey">#dfe3e5</color>
-    <color name="darkgrey">#cdcdcd</color>
+    <color name="dark_grey">#cdcdcd</color>
 
     <color name="border_color">#E0E0E0</color>
 
     <color name="colorBackgroundtoolbar">#1A237E</color>
 
 
-    <color name="home_screen_buttons_text_color">#c7c7c7</color>
+    <color name="tab_unselected">#c7c7c7</color>
     <color name="home_screen_background">#ffffff</color>
+
+
+    <color name="bg_yellow_light">#F6B04E</color>
+
+    <color name="bg_yellow">#EAC100</color>
+
+    <color name="colorControlActivated">#3E4050</color>
+    <color name="colorTextLightGray">#898A92</color>
+
+    <array name="tab_colors">
+        <item name="tab_1">#455C65</item>
+        <item name="tab_2">#00886A</item>
+        <item name="tab_3">#8B6B62</item>
+        <item name="tab_4">#6C4A42</item>
+        <item name="tab_5">#F63D2B</item>
+    </array>
+
+    <color name="colorBottomNavigationPrimary">#3F51B5</color>
+    <color name="colorBottomNavigationPrimaryDark">#303F9F</color>
+    <color name="colorBottomNavigationAccent">#FF4081</color>
+    <color name="colorBottomNavigationInactive">#747474</color>
+    <color name="colorBottomNavigationDisable">#3A000000</color>
+    <color name="colorBottomNavigationActiveColored">#FFFFFF</color>
+    <color name="colorBottomNavigationInactiveColored">#50FFFFFF</color>
+    <color name="colorBottomNavigationSelectedBackground">#17000000</color>
+    <color name="colorBottomNavigationNotification">#F63D2B</color>
 
 </resources>

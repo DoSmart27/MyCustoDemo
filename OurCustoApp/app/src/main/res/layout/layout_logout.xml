@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/style_card_view"
+    app:cardCornerRadius="3dp"
+    android:layout_margin="5dp"
+    android:id="@+id/card_logout"
+    android:padding="@dimen/standard_material_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sub_image_drawable"
+                android:layout_margin="3dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/ic_baseline_exit_to_app_24px"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/style_text_drawable_padding"
+                android:id="@+id/sub_title_item"
+                android:layout_weight="2"
+                android:textSize="@dimen/standard_text_size"
+                android:text="@string/title_referral" />
+
+
+            <android.support.v7.widget.AppCompatTextView
+                style="@style/style_text_drawable_padding"
+                android:layout_weight="2"
+                android:textSize="@dimen/standard_text_size"
+                android:text="@string/logout"
+                />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/edit_icon"
+                android:layout_weight="1"
+                style="@style/style_image_right_arrow"
+                app:srcCompat="@drawable/ic_baseline_navigate_next_24px" />
+
+        </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

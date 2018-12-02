@@ -4,19 +4,113 @@
 
     <string name="this_field_required">This field required</string>
 
-    <string name="api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDw12-Bpj2XK9P_dAO1eW6zJQxM7VCJ6Ao</string>
+    <string name="api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC4FgERZtz8fZnU9wtJMM7kAhhbCJSoHUw</string>
 
 
     <string name="tourn_on_your_location">Turn on your location</string>
     <string name="location_service_is_enabled">Location Services Is Enabled</string>
     <string name="location_service_is_not_enabled">Location Services Is Disabled</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_bottom_nav">BottomNavActivity</string>
-    <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <string name="allow_permission">Allow Permissions</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="submit">Submit</string>
+    <string name="dont_have_account">Don\'t you have an account?</string>
+    <string name="verify">Verify</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="have_referral_code">I have a referral code</string>
+    <string name="text_enter_phone">Enter your 10 digit mobile number to proceed</string>
+    <string name="enter_referral">Enter Referral Code</string>
+    <string name="set_delivery">Set Delivery</string>
+    <string name="set_location">Set Location</string>
+    <string name="search_location">Search Location</string>
+    <string name="search_dishes">Search Restaurants &amp; Dishes</string>
+    <string name="add_address">Add New Address</string>
+    <string name="enter_email">Enter Email Id </string>
+    <string name="enter_name">Enter Name </string>
+    <string name="enter_your_name">Enter Your Name </string>
+    <string name="enter_mobile">Enter Your Mobile Number </string>
+    <string name="enter_new_pwd">Enter New Password</string>
+    <string name="enter_confirm_pwd">Re-Enter New Password</string>
+    <string name="enter_old_pwd">Enter Old Password</string>
+    <string name="enter_valid_mobile">Enter Valid Mobile Number</string>
+    <string name="enter_valid_email">Enter Valid Email Id</string>
+    <string name="password_must_greater">Your Password must be greater than five letter.</string>
+    <string name="password_must_same">Both the password must be same</string>
+
+    <string name="set_delivery_location">Set Delivery Location</string>
+
+    <string name="other_text">Please provide an other tag name.</string>
+    <string name="landmark_error">Please provide proper landmark to save location</string>
+    <string name="other_same_error">Others Tag name should not be same as other</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_work">Work</string>
+    <string name="title_others">Others</string>
+    <string name="title_asap">ASAP</string>
+    <string name="save_as">Save As</string>
+
+    <string name="title_search">Search</string>
+    <string name="title_account">Account</string>
+    <string name="title_my_details">My Details</string>
+    <string name="title_order">Orders</string>
+
+    <string name="title_closes_soon">Closes Soon</string>
+
+
+    <string name="title_past_order">Past Orders</string>
+    <string name="title_current_order">Current Orders</string>
+
+    <string name="title_restaurant_offers">Restaurant Offers</string>
+    <string name="title_other_offers">Other Offers</string>
+
+    <string name="sub_title_login">Login quickly to manage your orders</string>
+
+    <string name="title_recommended">Recommended</string>
+    <string name="title_all_restaurants">All Restaurants</string>
+
+
+    <string name="title_browse_by_cuisine">Browse By Cuisine</string>
+    <string name="title_update">Update</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_reviews">Reviews</string>
+    <string name="title_minutes">mins</string>
+    <string name="view_all">View All</string>
+    <string name="show_only_veg">Show Only Veg Items</string>
+
+    <string name="saved_addresses">Saved Addresses</string>
+    <string name="enable_location">Enable Location Services</string>
+    <string name="using_gps">Using Gps</string>
+    <string name="current_location">Current Location</string>
+    <string name="manage_address">Manage Address</string>
+    <string name="title_favourite">Favourites</string>
+    <string name="title_referral">Referrals</string>
+    <string name="title_offers">Offers</string>
+    <string name="title_feedback">Send Feedback</string>
+    <string name="title_edit_profile">Edit Profile</string>
+    <string name="title_change_pwd">Change Password</string>
+    <string name="title_app_version">App Version : </string>
+    <string name="refer_and_earn">Refer and Earn</string>
+    <string name="title_invite_friends">Invite Friends</string>
+    <string name="title_your_favourite">Your Favourites</string>
+    <string name="service_not_available">Service Not Available</string>
+    <string name="invalid_lat_long_used">Invalid Lat long used</string>
+    <string name="no_address_found">No Address Found</string>
+    <string name="address_found">Address Found</string>
+    <string name="set_address_tag">Set the Address Tag like Home, Work, Others, etc</string>
+
+    <string name="text_referral_dummy">Invite your friends &amp; we will add Rs.10 into your wallet to you and your friends.</string>
+    <string name="text_valid_dummy">Valid till 31 Jan,2018. TCA.</string>
+
+    <string name="send_feedback_default">FeedBack From Anonymous</string>
+
+    <string name="press_back">Press back again to close this App.</string>
 
 
 </resources>

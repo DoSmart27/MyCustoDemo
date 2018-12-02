@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <!--android:background="@android:color/white"-->
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:id="@+id/image_tag"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_baseline_my_location_24px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:padding="5dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/address_tag_name"
+            android:singleLine="true"
+            android:layout_margin="2dp"
+            android:padding="1dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:text="Tag Name of Save Address"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/sub_tag_name"
+            android:singleLine="true"
+            android:layout_margin="2dp"
+            android:padding="1dp"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:text="sub title of a location"/>
+
+        <View
+           style="@style/view_bottom_bar"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_normal"/>
+
+    <com.vvc.ourcustoapp.custom.textviews.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tag_saved_address"
+        android:text="@string/saved_addresses"
+        android:layout_margin="3dp"
+        android:padding="10dp"
+        android:layout_below="@+id/toolbar"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_below="@+id/tag_saved_address"
+        android:layout_above="@+id/button_add_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        tools:listitem="@layout/layout_address_manage" />
+
+
+    <android.support.v7.widget.AppCompatButton
+        style="@style/style_button"
+        android:id="@+id/button_add_address"
+        android:text="@string/add_address"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

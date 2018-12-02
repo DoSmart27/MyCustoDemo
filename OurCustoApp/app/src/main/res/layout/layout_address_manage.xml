@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/address_image_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_my_location_24px"
+        android:layout_margin="5dp"
+        android:padding="3dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/address_tag_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:layout_margin="3dp"
+            android:padding="2dp"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/address_tag_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_referral"
+            android:layout_margin="3dp"
+            android:padding="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="3dp"
+            android:padding="2dp"
+            android:gravity="end">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/address_update"
+                android:text="@string/title_update"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/address_delete"
+                android:text="@string/title_delete"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"
+                />
+        </LinearLayout>
+
+
+        <View
+            style="@style/view_bottom_bar"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

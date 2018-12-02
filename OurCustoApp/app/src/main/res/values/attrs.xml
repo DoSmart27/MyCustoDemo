@@ -23,4 +23,23 @@
         <attr name="spb_generate_background_with_colors" format="boolean"/>
         <attr name="spb_gradients" format="boolean"/>
     </declare-styleable>
+
+
+    <declare-styleable name="ShimmerLayout">
+        <attr name="shimmer_color" format="color|reference"/>
+        <attr name="shimmer_animation_duration" format="integer|reference"/>
+        <attr name="shimmer_auto_start" format="boolean|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="BottomNavigationBehavior_Params">
+        <attr name="tabLayoutId" format="reference" />
+        <attr name="selectedBackgroundVisible" format="boolean" />
+        <attr name="translucentNavigationEnabled" format="boolean" />
+        <attr name="colored" format="boolean" />
+        <attr name="accentColor" format="color" />
+        <attr name="inactiveColor" format="color" />
+        <attr name="disableColor" format="color" />
+        <attr name="coloredActive" format="color" />
+        <attr name="coloredInactive" format="color" />
+    </declare-styleable>
 </resources>
